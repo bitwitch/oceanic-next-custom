@@ -121,10 +121,17 @@
       }
     },
     {
-      "name": "Class, Support",
-      "scope": "entity.name.class, entity.name.type.class, support.type, support.class, entity.other.inherited-class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter",
+      "name": "Class Name",
+      "scope": "entity.name.class, entity.name.type.class, entity.other.inherited-class",
       "settings": {
         "foreground": "#F9C76B"
+      }
+    },
+    {
+      "name": "Class, Support",
+      "scope": "support.type, support.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter",
+      "settings": {
+        "foreground": "#FA939F"
       }
     },
     {
@@ -186,9 +193,14 @@
     },
     {
       "name": "Regular Expressions",
-      "scope": "string.regexp",
-      "settings": {
-        "foreground": "#5FB3B3"
+      "scope": [
+        "string.regexp", 
+        "meta.group.regexp", 
+        "punctuation.definition.string.begin.js", 
+        "string.regexp punctuation.definition.string.end.js"
+        ],
+      "settings": { 
+      "foreground": "#FA939F"
       }
     },
     {

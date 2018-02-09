@@ -1,0 +1,22 @@
+{
+    "name": "oceanic-next-custom-dark",
+    "displayName": "Oceanic Next Custom Dark",
+    "description": "A customized oceanic next theme with a softer, darker vibe. ",
+    "version": "0.0.1",
+    "publisher": "none",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Oceanic Next Custom Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Oceanic Next Custom Dark-color-theme.json"
+            }
+        ]
+    }
+}

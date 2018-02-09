@@ -1,6 +1,6 @@
 ## Oceanic Next Custom 
 ### A theme for vscode.
-Theme based on Oceanic Next and the syntax highlighting in react.js documentation.  
+Dark theme based on Oceanic Next and the syntax highlighting in react.js documentation.  
 
 ![react javascript example](https://i.imgur.com/KOl3fWR.png)
 

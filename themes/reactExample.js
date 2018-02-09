@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from react'
 import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react'
 
 class AdminSidebar extends Component {
@@ -8,11 +8,10 @@ class AdminSidebar extends Component {
   }
 
   handleMouseMove = (event) => {
-    const { screenX, screenY } = event
-    if (screenY >= hitbox.top ) {
-      if(this.state.visible && screenX >= hitbox.right) {
+    if (event.screenY >= hitbox.top ) {
+      if(this.state.visible && event.screenX >= hitbox.right) {
         this.toggleVisibilityOff()
-      } else if (!this.state.visible && screenX <= hitbox.left){
+      } else if (!this.state.visible && event.screenX <= hitbox.left){
         this.toggleVisibilityOn()
       }
     }

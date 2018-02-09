@@ -109,7 +109,6 @@
       "name": "String, Symbols, Markup Heading",
       "scope": "string, constant.other.symbol, constant.other.key, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
       "settings": {
-        "fontStyle": "normal",
         "foreground": "#99C794"
       }
     },

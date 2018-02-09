@@ -4,13 +4,15 @@ import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui
 class AdminSidebar extends Component {
   state = {
     visible: false,
+    date: new Date()
   }
 
-  handleMouseMove = (e) => {
-    if (e.screenY >= 229 ) {
-      if(this.state.visible && e.screenX >= 155) {
+  handleMouseMove = (event) => {
+    const { screenX, screenY } = event
+    if (screenY >= hitbox.top ) {
+      if(this.state.visible && screenX >= hitbox.right) {
         this.toggleVisibilityOff()
-      } else if (!this.state.visible && e.screenX <= 20){
+      } else if (!this.state.visible && screenX <= hitbox.left){
         this.toggleVisibilityOn()
       }
     }

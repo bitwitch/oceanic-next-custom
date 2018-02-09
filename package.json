@@ -3,7 +3,7 @@
     "icon": "icon.png",
     "displayName": "Oceanic Next Custom Dark",
     "description": "Dark theme based on oceanic next and the syntax highlighting in react.js documentation.",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "publisher": "shawdaddy",
     "repository": {
         "type": "git",

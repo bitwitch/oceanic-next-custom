@@ -21,7 +21,7 @@ class AdminSidebar extends React.Component {
       this.setState({ visible: true })
     }
   }
-
+  
   toggleVisibilityOff = () => {
     if(this.state.visible) {
       this.setState({ visible: false })

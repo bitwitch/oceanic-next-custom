@@ -1,5 +1,3 @@
-array[1].forEach()
-
 import React from 'react'
 import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react'
 

@@ -1,6 +1,6 @@
 {
     "name": "oceanic-next-custom-dark",
-    "icon": "https://i.imgur.com/32AQ5iV.png",
+    "icon": "./icon.png",
     "displayName": "Oceanic Next Custom Dark",
     "description": "Dark theme based on oceanic next and the syntax highlighting in react.js documentation.",
     "version": "1.0.0",

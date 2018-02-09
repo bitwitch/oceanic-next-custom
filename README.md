@@ -11,5 +11,3 @@ Navigate to the .vscode directory
 
 Clone this repo 
 `git clone https://github.com/xxDOOMbox/oceanic-next-custom.git`
-
-

@@ -1,7 +1,7 @@
 {
     "name": "oceanic-next-custom-dark",
     "displayName": "Oceanic Next Custom Dark",
-    "description": "A customized oceanic next theme with a softer, darker vibe. ",
+    "description": "Dark theme based on Oceanic Next and the syntax highlighting in react.js documentation.",
     "version": "0.0.1",
     "publisher": "shawdaddy",
     "repository": "https://github.com/xxDOOMbox/oceanic-next-custom.git",

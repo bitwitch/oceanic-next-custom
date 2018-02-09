@@ -10,7 +10,7 @@ class AdminSidebar extends React.Component {
 
   handleMouseMove = (event) => {
     if (event.screenY >= 229 ) {
-      if(this.state.visible && event.screenX >= 155 array[2][3] ) {
+      if(this.state.visible && event.screenX >= 155) {
         this.toggleVisibilityOff()
       } else if (!this.state.visible && event.screenX <= 20){
         this.toggleVisibilityOn()

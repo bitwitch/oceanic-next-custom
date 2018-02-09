@@ -209,18 +209,12 @@
       }
     },
     {
-      "name": "Parens",
+      "name": "Parens, Brackets",
       "scope": [
-        "meta.brace.round.js"
-      ]
-     ,
-      "settings": {
-        "foreground": "#CDD3DE"
-      }
-    },
-    {
-      "name": "Objects",
-      "scope": "meta.object-literal.key",
+        "meta.brace.round",
+        "meta.object-literal.key",
+        "meta.brace.square"
+      ],
       "settings": {
         "foreground": "#CDD3DE"
       }

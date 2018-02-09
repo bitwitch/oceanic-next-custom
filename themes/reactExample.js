@@ -1,17 +1,18 @@
-import React, { Component } from 'react'
+array[1].forEach()
+
+import React from 'react'
 import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react'
 
-class AdminSidebar extends Component {
+class AdminSidebar extends React.Component {
   state = {
-    visible: false,
-    date: new Date()
+    visible: false
   }
 
   handleMouseMove = (event) => {
-    if (event.screenY >= hitbox.top ) {
-      if(this.state.visible && event.screenX >= hitbox.right) {
+    if (event.screenY >= 229 ) {
+      if(this.state.visible && event.screenX >= 155 array[2][3] ) {
         this.toggleVisibilityOff()
-      } else if (!this.state.visible && event.screenX <= hitbox.left){
+      } else if (!this.state.visible && event.screenX <= 20){
         this.toggleVisibilityOn()
       }
     }
@@ -25,7 +26,7 @@ class AdminSidebar extends Component {
 
   toggleVisibilityOff = () => {
     if(this.state.visible) {
-      this.setState({ visible: false})
+      this.setState({ visible: false })
     }
   }
 

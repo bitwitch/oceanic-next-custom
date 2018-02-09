@@ -7,9 +7,9 @@ Dark theme based on Oceanic Next and the syntax highlighting in react.js documen
 ## Install 
 
 Navigate to the .vscode directory  
-cd ~/.vscode/extensions  
+`cd ~/.vscode/extensions`
 
 Clone this repo 
-git clone https://github.com/xxDOOMbox/oceanic-next-custom.git
+`git clone https://github.com/xxDOOMbox/oceanic-next-custom.git`
 
 

@@ -3,7 +3,8 @@
     "displayName": "Oceanic Next Custom Dark",
     "description": "A customized oceanic next theme with a softer, darker vibe. ",
     "version": "0.0.1",
-    "publisher": "none",
+    "publisher": "shawdaddy",
+    "repository": "https://github.com/xxDOOMbox/oceanic-next-custom.git",
     "engines": {
         "vscode": "^1.20.0"
     },

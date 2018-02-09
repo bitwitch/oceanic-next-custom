@@ -195,8 +195,8 @@
       "name": "Regular Expressions",
       "scope": [
         "string.regexp", 
-        "meta.group.regexp", 
-        "punctuation.definition.string.begin.js", 
+        "meta.group.regexp",
+        "string.regexp punctuation.definition.string.begin.js", 
         "string.regexp punctuation.definition.string.end.js"
         ],
       "settings": { 

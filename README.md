@@ -5,7 +5,7 @@ Dark theme based on Oceanic Next and the syntax highlighting in react.js documen
 ![react javascript example](https://i.imgur.com/4EvX1j8.png)
 
 ## Install 
-###Click install above, or to manually install:  
+### Click install above, or to manually install:  
 
 Navigate to the .vscode directory on your machine  
 `cd ~/.vscode/extensions`

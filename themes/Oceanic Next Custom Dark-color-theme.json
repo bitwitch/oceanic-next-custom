@@ -140,6 +140,13 @@
       }
     },
     {
+      "name": "Support Class",
+      "scope": "support.class",
+      "settings": {
+        "foreground": "#F9C76B"
+      }
+    },
+    {
       "name": "Sub-methods",
       "scope": "entity.name.module.js, variable.import.parameter.js, variable.other.class.js",
       "settings": {
